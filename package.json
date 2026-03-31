@@ -1,0 +1,17 @@
+{
+  "name": "@pipeworx/mcp-holidays",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "MCP server for public holidays — worldwide holiday data by country and year",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "pipeworx",
+    "holidays"
+  ],
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
