@@ -1,14 +1,13 @@
-# @pipeworx/mcp-holidays
+# mcp-holidays
 
-MCP server for public holidays — worldwide holiday data by country and year. Wraps the [Nager.Date API](https://date.nager.at/) (free, no auth required).
+Holidays MCP — wraps Nager.Date API (free, no auth)
+
+Part of the [Pipeworx](https://pipeworx.io) open MCP gateway.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
-| `get_holidays` | Get public holidays for a country and year |
-| `is_today_holiday` | Check whether today is a public holiday in a given country |
-| `next_holidays` | Get upcoming public holidays for a country |
 
 ## Quick Start
 
@@ -24,7 +23,7 @@ Add to your MCP client config:
 }
 ```
 
-Or run via CLI:
+Or use the CLI:
 
 ```bash
 npx pipeworx use holidays

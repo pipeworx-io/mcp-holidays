@@ -1,12 +1,3 @@
-/**
- * Holidays MCP — wraps Nager.Date API (free, no auth)
- *
- * Tools:
- * - get_holidays: public holidays for a country and year
- * - is_today_holiday: check if today is a public holiday in a country
- * - next_holidays: upcoming public holidays for a country
- */
-
 interface McpToolDefinition {
   name: string;
   description: string;
@@ -21,6 +12,16 @@ interface McpToolExport {
   tools: McpToolDefinition[];
   callTool: (name: string, args: Record<string, unknown>) => Promise<unknown>;
 }
+
+/**
+ * Holidays MCP — wraps Nager.Date API (free, no auth)
+ *
+ * Tools:
+ * - get_holidays: public holidays for a country and year
+ * - is_today_holiday: check if today is a public holiday in a country
+ * - next_holidays: upcoming public holidays for a country
+ */
+
 
 const BASE_URL = 'https://date.nager.at/api/v3';
 
