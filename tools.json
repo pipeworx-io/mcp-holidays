@@ -1,0 +1,55 @@
+[
+  {
+    "name": "get_holidays",
+    "description": "Get all public holidays for a country and year. Returns holiday names and dates. Provide country code (e.g., \"US\", \"GB\", \"DE\") and year.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "country_code": {
+          "type": "string",
+          "description": "ISO 3166-1 alpha-2 country code (e.g., US, GB, DE, FR)"
+        },
+        "year": {
+          "type": "number",
+          "description": "The year to retrieve holidays for (e.g., 2025)"
+        }
+      },
+      "required": [
+        "country_code",
+        "year"
+      ]
+    }
+  },
+  {
+    "name": "is_today_holiday",
+    "description": "Check if today is a public holiday in a given country. Returns whether it's a holiday and the holiday name if applicable. Provide country code (e.g., \"US\", \"GB\").",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "country_code": {
+          "type": "string",
+          "description": "ISO 3166-1 alpha-2 country code (e.g., US, GB, DE, FR)"
+        }
+      },
+      "required": [
+        "country_code"
+      ]
+    }
+  },
+  {
+    "name": "next_holidays",
+    "description": "Get upcoming public holidays from today onward for a country. Returns holiday names and dates. Provide country code (e.g., \"US\", \"GB\", \"DE\").",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "country_code": {
+          "type": "string",
+          "description": "ISO 3166-1 alpha-2 country code (e.g., US, GB, DE, FR)"
+        }
+      },
+      "required": [
+        "country_code"
+      ]
+    }
+  }
+]
