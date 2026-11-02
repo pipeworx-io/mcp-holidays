@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-holidays",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Holidays MCP — wraps Nager.Date API (free, no auth)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "holidays",
     "gatewaySlug": "holidays",
-    "sourceHash": "v1-2fe01961991de24410a2cc6740031e4766413ce0706a59c5cf8e00fd50ed05bc",
-    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
+    "sourceHash": "v1-783065d4098e138b548b58c066d860e4af0d5093e331edea8e54f7a19697da46",
+    "sourceCommit": "0ca9712c0ac03bb0121cc7e81b202d0c45ac02ca"
   }
 }
